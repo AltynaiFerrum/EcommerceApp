@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dark_background_color">#252628</color>
+    <color name="light_background_color">#FFFFFFFF</color>
+
+    <attr name="mainBackgroundColor" format ="reference|color"/>
+    <attr name="like_icon" format ="reference"/>
+    <attr name="buy_icon" format ="reference"/>
+    <attr name="TextColor" format ="reference|color"/>
+    <attr name="VPbackgroundColor" format ="reference|color"/>
+    <attr name="search_background_color" format ="reference|color"/>
+
+    app:cardBackgroundColor="@color/white"
+
+
+
+
+</resources>

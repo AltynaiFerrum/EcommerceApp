@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/fragmentHomeScreen">
+
+    <fragment
+        android:id="@+id/fragmentHomeScreen"
+        android:name="com.jyldyzferr.ecommerceapp.presentation.home_screen.FragmentHomeScreen"
+        android:label="fragment_home_screen"
+        tools:layout="@layout/fragment_home_screen" >
+        <action
+            android:id="@+id/action_fragmentHomeScreen_to_fragmentSearchScreen"
+            app:destination="@id/fragmentSearchScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentSearchScreen"
+        android:name="com.jyldyzferr.ecommerceapp.presentation.search_screen.FragmentSearchScreen"
+        android:label="fragment_search_screen"
+        tools:layout="@layout/fragment_search_screen" >
+        <argument
+            android:name="itemCategories"
+            app:argType="com.jyldyzferr.ecommerceapp.domain.models.ItemCategories" />
+    </fragment>
+</navigation>

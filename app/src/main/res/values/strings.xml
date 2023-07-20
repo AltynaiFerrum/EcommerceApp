@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EcommerceApp</string>
+
+    <string name="Categories">Categories</string>
+    <string name="Hello">Hello,</string>
+    <string name="user_name">Hari Prasad</string>
+    <string name="Featured">Featured</string>
+    <string name="All">All</string>
+
+</resources>
